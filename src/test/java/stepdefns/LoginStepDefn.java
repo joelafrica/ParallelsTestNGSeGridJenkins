@@ -46,7 +46,7 @@ public class LoginStepDefn {
 	public void user_enters_valid_username_and_password() throws Throwable {
 		LoginPage loginPg = new LoginPage(driver);
 		loginPg.strUserName = "jafrica";
-		loginPg.strPassword = "Joel27070";		
+		loginPg.strPassword = "xxxx";		
 		loginPg.enterUserName();
 		loginPg.enterPassword();
 		loginPg.signin();
@@ -66,7 +66,7 @@ public class LoginStepDefn {
 	public void user_enters_invalid_username_and_password() throws Throwable {
 		LoginPage loginPg = new LoginPage(driver);
 		loginPg.strUserName = "jafrica";
-		loginPg.strPassword = "Joel27070xx";		
+		loginPg.strPassword = "xxxx";		
 		loginPg.enterUserName();
 		loginPg.enterPassword();
 		loginPg.signin();
